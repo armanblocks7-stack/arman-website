@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A M Arman</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f9f9f9, #e0e0ff);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 40px 0;
+      animation: popIn 1.5s ease;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      animation: bounceIn 1.5s ease;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 10px 0 0;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #011216;
+    }
+
+    .social-links {
+      margin: 40px 0;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 28px;
+      font-size: 1.2em;
+      color: rgb(244, 243, 243);
+      background-color: #515253;
+      text-decoration: none;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .social-links a:hover {
+      background-color: #160c67;
+      transform: scale(1.1);
+    }
+
+    .social-links a:active {
+      animation: crazyClick 0.6s ease;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      background-color: #01413f;
+      color: #7f8c8d;
+    }
+
+    /* Animations */
+    @keyframes popIn {
+      0% { transform: scale(0.5); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes bounceIn {
+      0% { transform: scale(0.5); opacity: 0; }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes crazyClick {
+      0% { transform: scale(1) rotate(0deg); background-color: #3498db; }
+      25% { transform: scale(1.2) rotate(10deg); background-color: #e74c3c; }
+      50% { transform: scale(0.9) rotate(-10deg); background-color: #f1c40f; }
+      75% { transform: scale(1.1) rotate(5deg); background-color: #2ecc71; }
+      100% { transform: scale(1) rotate(0deg); background-color: #3498db; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="WhatsApp Image 2025-08-01 at 21.27.01_6e4f4b9d.jpg" alt="A M Arman" class="profile-pic">
+    <h1>A M Arman</h1>
+    <p>Welcome to my all social media links</p>
+  </header>
+
+  <section class="social-links">
+    <h2>Connect with me</h2>
+    <a href="https://www.facebook.com/share/163RwS1o1a/?mibextid=wwXIfr" target="_blank">Facebook</a>
+    <a href="https://wa.me/+393475150244" target="_blank">WhatsApp</a>
+    <a href="https://www.instagram.com/ashraful_mazumder_arman?igsh=M20ybTFweDhtOGly&utm_source=qr" target="_blank">Instagram</a>
+    <a href="https://youtube.com/@ashraful_mazumder?si=57S8VLEWogTFklFL" target="_blank">YouTube</a>
+  </section>
+
+  <footer>
+    &copy; Here you will find all my information..
+  </footer>
+
+</body>
+</html>
